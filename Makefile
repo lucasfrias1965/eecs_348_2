@@ -1,4 +1,7 @@
 blah:
-	gcc main.c -o main
+	gcc main.c -o checker
+
+.PHONY: clean
+
 clean:
-	rm main
+	rm checker 
