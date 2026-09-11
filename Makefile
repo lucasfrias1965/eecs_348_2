@@ -1,2 +1,4 @@
 blah:
-	gcc main.c I-/lib  -o main
+	gcc main.c -o main
+clean:
+	rm main
